@@ -2,7 +2,7 @@ require "rails_helper"
 
 RSpec.describe "Using", type: :feature do
   feature "simple text" do
-    it "parrots back the submitted text", points: 1, hint: I18n.t("hints.one") do
+    it "parrots back the submitted text", points: 1 do
       visit "/word_count/new"
 
       fill_in "Text",
