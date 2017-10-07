@@ -73,6 +73,5 @@ group :test do
   gem 'webmock'
 end
 
-gem 'bootstrap', '~> 4.0.0.alpha6'
 gem 'jquery-rails'
 gem 'font-awesome-sass', '~> 4.7.0'

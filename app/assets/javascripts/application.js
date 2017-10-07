@@ -18,6 +18,6 @@
 //= require moment
 //= require bootstrap-datetimepicker
 
-$(function () {
+document.addEventListener("turbolinks:load", function() {
   $('.datetimepicker').datetimepicker();
 });
