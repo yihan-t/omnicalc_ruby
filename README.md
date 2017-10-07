@@ -14,13 +14,14 @@ It is a collection of calculators that do various things; count the number of wo
 
 ## Setup
 
- 1. Ensure that this repo is a fork on your own account.
- 1. Setup [a Cloud9 workspace as usual](https://guides.firstdraft.com/getting-started-with-cloud-9.html).
- 1. In a Terminal, run `bin/setup`.
- 1. Run Project and visit your app in Chrome.
- 1. If all went well, you should see the New Word Count form. **If not, let us know right away.**
+ 1. Copy the URL of this repository.
+ 1. In your Cloud9 workspace, open a Terminal window and type `git clone [PASTE THE URL OF THIS REPOSITORY]` and press <kbd>return</kbd>.
+ 1. After it downloads the code, `cd omnicalc_ruby` and press <kbd>return</kbd>.
+ 1. Then type `bin/setup` and press <kbd>return</kbd>.
+ 1. After it completes, type `bin/server` and press <kbd>return</kbd>.
+ 1. Now paste the URL of your running application into a Chrome tab. If all went well, you should see the New Word Count form. **If not, let us know right away.**
  1. Type in some text and submit the form.
- 1. On the results page, you will currently see just a bunch of placeholders.
+ 1. On the results page, you will currently see just a bunch of placeholders. Your job will be to replace the placeholders with correctly computed values.
  1. In Atom, find the `/app/controllers/calculations_controller.rb` file.
  1. Locate the part of the file that looks like this:
 
