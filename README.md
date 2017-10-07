@@ -53,10 +53,10 @@ It is a collection of calculators that do various things; count the number of wo
  1. You have to figure out how to calculate the correct value for the rest: `@character_count_without_spaces`, `@word_count`, and `@occurrences`. Don't change the names of these variables; if you do, your results won't appear in the browser in the end.
  1. Refresh the results page in your browser to re-run your code and see new output.
  1. You can write as much or as little code as it takes to produce the correct answer; create intermediate variables if you want, or do anything else that you learned about from class. It's all just the same Ruby as before.
- 1. Use [the Continuous Integration workflow](https://guides.firstdraft.com/continuous-integration.html) to save and submit your work after you complete each little task.
  1. Next, work on the [Loan Payment calculator](http://localhost:3000/loan_payment/new). You'll again be working in the same file, `/app/controllers/calculations_controller.rb`. This time, scroll down to the method `def loan_payment` and write your code in there as indicated by the comments.
  1. Some tasks are easier, some are much harder. For example, in the Descriptive Statistics calculator, finding the mode (the number that occurs most frequently in a list of numbers) is surprisingly hard. Do your best, but don't get discouraged if you can't quite solve it.
+ 1. The [Ruby Intro](https://guides.firstdraft.com/introduction-to-ruby.html) contains enough tools to solve all of the Omnicalc challenges. (You can build up almost anything from scratch given conditionals, loops, and variables.) You should attempt to solve it using the tools you've already seen.
  1. For the mode calculation, just worry about the simplest case; when there's one number that occurs most frequently, that should be shown as the mode. I won't be testing the case that there's a tie.
- 1. Make lots of commits and Push them to GitHub as you are working.
- 1. I suggest making a new branch for every new feature that you start working on.
+ 1. When you're ready for some feedback, or to submit your work, run `rails grade:all` in a Terminal tab. (Make sure that you in the `~/workspace/omnicalc_ruby` folder; if not, `cd omnicalc_ruby`.)
+ 1. The first time you run `rails grade:all`, it will ask you for a personal access token. Copy-paste it from the assignment page in Canvas.
  1. Ask lots of questions!
