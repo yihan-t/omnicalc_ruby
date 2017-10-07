@@ -14,12 +14,9 @@ It is a collection of calculators that do various things; count the number of wo
 
 ## Setup
 
- 1. Copy the URL of this repository.
- 1. In your Cloud9 workspace, open a Terminal window and type `git clone [PASTE THE URL OF THIS REPOSITORY]` and press <kbd>return</kbd>.
- 1. After it downloads the code, `cd omnicalc_ruby` and press <kbd>return</kbd>.
- 1. Then type `bin/setup` and press <kbd>return</kbd>.
- 1. After it completes, type `bin/server` and press <kbd>return</kbd>.
- 1. Now paste the URL of your running application into a Chrome tab. If all went well, you should see the New Word Count form. **If not, let us know right away.**
+ 1. Type `bin/setup` at the terminal prompt and press <kbd>return</kbd>.
+ 1. After it completes, type `bin/server` and press <kbd>return</kbd>. (Or click the green Run Project button at the top of the IDE.)
+ 1. Now paste the URL of your running application into a Chrome tab (or click the underlined URL that appears in the terminal). If all went well, you should see the New Word Count form. **If not, let us know right away.**
  1. Type in some text and submit the form.
  1. On the results page, you will currently see just a bunch of placeholders. Your job will be to replace the placeholders with correctly computed values.
  1. In Atom, find the `/app/controllers/calculations_controller.rb` file.
@@ -57,6 +54,5 @@ It is a collection of calculators that do various things; count the number of wo
  1. Some tasks are easier, some are much harder. For example, in the Descriptive Statistics calculator, finding the mode (the number that occurs most frequently in a list of numbers) is surprisingly hard. Do your best, but don't get discouraged if you can't quite solve it.
  1. The [Introduction to Ruby](https://guides.firstdraft.com/introduction-to-ruby.html) contains enough tools to solve all of the Omnicalc challenges. (You can build up almost anything from scratch given conditionals, loops, and variables.) You should attempt to solve it using the tools you've already seen.
  1. For the mode calculation, just worry about the simplest case; when there's one number that occurs most frequently, that should be shown as the mode. I won't be testing the case that there's a tie.
- 1. When you're ready for some feedback, or to submit your work, run `rails grade:all` in a Terminal tab. (Make sure that your prompt says you are in the `~/workspace/omnicalc_ruby` folder; if not, `cd ~/workspace/omnicalc_ruby`.)
- 1. The first time you run `rails grade:all`, it will ask you for a personal access token. Copy-paste it from the assignment page in Canvas.
+ 1. When you're ready for some feedback, run `rspec` in a Terminal tab. There will be a bunch of output; don't be intimidated! Try to read through it and make sense of it; ask questions on Piazza, and we'll discuss in detail next week.
  1. Ask lots of questions!
