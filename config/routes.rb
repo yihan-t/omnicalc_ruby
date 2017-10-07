@@ -12,6 +12,4 @@ Rails.application.routes.draw do
 
   get("/descriptive_statistics/new",     { :controller => "calculations", :action => "descriptive_statistics_form" })
   get("/descriptive_statistics/results", { :controller => "calculations", :action => "descriptive_statistics" })
-
-  mount WebGit::Engine, at: "/rails/git"
 end
