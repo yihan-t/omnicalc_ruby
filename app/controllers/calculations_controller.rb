@@ -20,7 +20,7 @@ class CalculationsController < ApplicationController
     x=0
 
     @text.split.each do |word|
-      if word==@special_word
+      if word.downcase.gsub(/[^a-z0-9\s]/i, "")==@special_word.downcase
         x+=1
       end
     end
@@ -105,9 +105,9 @@ class CalculationsController < ApplicationController
     
     center = @numbers.count / 2
     if @numbers.count.even?
-      @median = (@numbers[center] + @numbers[center-1])/2
+      @median = (@numbers.sort[center] + @numbers.sort[center-1])/2
     else 
-      @median = @numbers[center.floor]
+      @median = @numbers.sort[center.floor]
     end 
     
     x=0
